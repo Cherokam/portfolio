@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9; /* Fond gris clair */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #003366; /* Bleu foncé */
+}
+.navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+.nav-link {
+    color: white !important;
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: #0066cc !important; /* Bleu clair au survol */
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #003366, #0066cc); /* Dégradé bleu foncé à bleu clair */
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 30px;
+}
+
+/* Cards (Portfolio) */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #ffffff;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-body {
+    padding: 20px;
+}
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+}
+.card-title {
+    color: #003366;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Progress Bars (Skills) */
+.progress-bar {
+    background-color: #0066cc;
+}
+.progress {
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.contact-item i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #003366;
+}
+.contact-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Form Styles */
+form input, form textarea {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+form button:hover {
+    background-color: #005bb5; /* Légère modification de la couleur au survol */
+}
